@@ -13,7 +13,6 @@ function App() {
       <div className="content">
         <button
           className={'like-button' + (state.liked ? ' liked' : '')}
-          className="like-button"
           onClick={() =>
             setState({
               likes: (state.likes += 1),
@@ -27,7 +26,6 @@ function App() {
         </button>
         <button
           className={'dislike-button' + (state.disliked ? ' disliked' : '')}
-          className="dislike-button"
           onClick={() =>
             setState({
               dislikes: (state.dislikes += 1),
