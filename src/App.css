@@ -11,15 +11,19 @@
 }
 
 .content {
-  display: flex;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.25s ease-in-out;
 }
-
+.content:hover {
+  transform: scale(1.1);
+}
 .like-button,
 .dislike-button {
   font-size: 1rem;
   padding: 5px 10px;
   color: #05050558;
-  background-color: #eb585858;
+  background-color: #fdead5;
   margin: 10px;
   border: none;
 }

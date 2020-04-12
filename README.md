@@ -14,4 +14,8 @@ You will also see any lint errors in the console.
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Learn more about github pages here: https://facebook.github.io/create-react-app/docs/deployment
+
+### Check out the page here
+
+https://codergals.github.io/react_counter/
