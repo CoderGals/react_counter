@@ -15,9 +15,11 @@
   background-color: rgb(255, 255, 255);
   transition: all 0.25s ease-in-out;
 }
+
 .content:hover {
   transform: scale(1.1);
 }
+
 .like-button,
 .dislike-button {
   font-size: 1rem;
@@ -32,4 +34,8 @@
 .disliked {
   font-weight: 600;
   color: #1565c0;
+}
+
+button::-moz-focus-inner {
+  border: 0;
 }
